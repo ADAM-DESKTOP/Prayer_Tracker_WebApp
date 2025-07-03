@@ -1,8 +1,4 @@
-
-
 import streamlit as st
-from datetime import date
-from prayer_times_calculator import PrayerTimesCalculator
 import geocoder
 import calendar
 import json
@@ -12,9 +8,9 @@ from datetime import datetime
 from datetime import date
 import json
 import os
+from prayer_times_calculator import PrayerTimesCalculator
 
 
-import streamlit as st
 
 st.markdown("""
     <style>
